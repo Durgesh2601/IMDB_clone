@@ -1,5 +1,5 @@
 import './App.css';
-import { MoviesList } from './components/MoviesList/MoviesList';
+import { MoviesList } from './components/Movies/MoviesList';
 import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
