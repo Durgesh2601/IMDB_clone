@@ -22,6 +22,7 @@ export const Navbar = () => {
             </ul>
             <div className="d-flex">
             <button className="btn btn-outline-success">Sign In</button>
+            <button className="btn btn-outline-danger ms-3">Sign Up</button>
             </div>
           </div>
         </div>
