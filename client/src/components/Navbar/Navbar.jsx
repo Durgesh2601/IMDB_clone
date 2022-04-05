@@ -1,5 +1,6 @@
 import "./Navbar.css"
-import logo from "../Images/logo.png"
+import logo from "../Images/logo.png";
+import { Link } from "react-router-dom";
 export const Navbar = () => {
     return (
         <>
@@ -14,15 +15,13 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                {/* <a className="nav-link" href="#">Link</a> */}
+                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
             </ul>
             <div className="d-flex">
-            <button className="btn btn-outline-success">Sign In</button>
-            <button className="btn btn-outline-danger ms-3">Sign Up</button>
+            <Link to="/signin"><button className="btn btn-outline-success">Sign In</button></Link>
+            <Link to="/signup"><button className="btn btn-outline-danger ms-3">Sign Up</button></Link>
+            
             </div>
           </div>
         </div>
