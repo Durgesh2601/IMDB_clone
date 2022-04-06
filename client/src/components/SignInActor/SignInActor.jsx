@@ -1,11 +1,11 @@
 import { Navbar } from "../Navbar/Navbar";
-import "./SignUp.css";
-export const SignUp = () => {
+import "./SignInActor.css";
+export const SignInActor = () => {
     return <>
     <Navbar/>
-    <div className="contSignUp mt-4">
-        <div className="formDiv mt-1">
-            <h1 className="display-4 text-center mb-3" style={{color:"white"}}>Sign UP</h1>
+    <div className="contSignIn mt-3">
+    <div className="formDiv mt-3">
+        <h1 className="display-4 text-center mb-3" style={{color:"white"}}>Login as an actor</h1>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
@@ -26,6 +26,9 @@ export const SignUp = () => {
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Movies</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+        </div>
+        <div className="btnDiv">
+        <button type="button" className="btn btn-info m-auto">Sign In</button>
         </div>
     </div>
     </div>

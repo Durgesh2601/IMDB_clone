@@ -1,0 +1,13 @@
+.contSignUp{
+    border: 2px solid gray;
+    width: 35%;
+    margin: auto;
+    height: 30rem;
+}
+.formDiv{
+    padding: 3%;
+}
+.btnDiv{
+    margin: auto;
+    width: 20%;
+}

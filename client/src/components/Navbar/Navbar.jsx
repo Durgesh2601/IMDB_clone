@@ -20,8 +20,8 @@ export const Navbar = () => {
               <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/movies">Movies</Link></li>
             </ul>
             <div className="d-flex">
-            <Link to="/signin"><button className="btn btn-outline-success">Sign In</button></Link>
-            <Link to="/signup"><button className="btn btn-outline-danger ms-3">Sign Up</button></Link>
+            <Link to="/signin"><button className="btn btn-outline-success">Sign In as a actor</button></Link>
+            <Link to="/signup"><button className="btn btn-outline-primary ms-3">Sign In as an producer</button></Link>
             
             </div>
           </div>
