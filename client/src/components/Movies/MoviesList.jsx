@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Navbar } from "../Navbar/Navbar";
 
 export const MoviesList = () => {
     const [movies, setMovies] = useState([]);
@@ -10,6 +11,7 @@ export const MoviesList = () => {
     }
     return (
         <>
+        <Navbar/>
         <h1 className="display-4 text-center" style={{color : "white"}}>Movies</h1>
         <div></div>
         </>

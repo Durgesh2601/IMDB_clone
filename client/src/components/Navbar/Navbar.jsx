@@ -17,6 +17,7 @@ export const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
+              <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/movies">Movies</Link></li>
             </ul>
             <div className="d-flex">
             <Link to="/signin"><button className="btn btn-outline-success">Sign In</button></Link>
