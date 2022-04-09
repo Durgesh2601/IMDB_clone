@@ -9,6 +9,7 @@ export const MoviesList = () => {
     const getMovies =  () => {
         fetch("https://imdbbackendserver.herokuapp.com/movie").then((res) => res.json()).then((d) => setMovies(d));
     }
+    console.log(movies);
     return (
         <>
         <Navbar/>
